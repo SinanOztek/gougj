@@ -782,6 +782,14 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!81 &677981777
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677981769}
+  m_Enabled: 1
 --- !u!1 &771655697
 GameObject:
   m_ObjectHideFlags: 0
@@ -2080,9 +2088,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4680391301236310904, guid: 1b1d8b951c64b284e930ba74491f4cac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937099050095530212, guid: 1b1d8b951c64b284e930ba74491f4cac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4948463910943152969, guid: 1b1d8b951c64b284e930ba74491f4cac, type: 3}
       propertyPath: m_Name
       value: "S\u0131n\u0131f Blok"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119258959684869215, guid: 1b1d8b951c64b284e930ba74491f4cac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8288986351853608918, guid: 1b1d8b951c64b284e930ba74491f4cac, type: 3}
       propertyPath: m_LocalScale.x
